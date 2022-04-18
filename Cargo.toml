@@ -1,2 +1,4 @@
 [package]
-name = "rust-ml-examp
+name = "rust-ml-example"
+version = "0.1.0"
+authors = ["M
