@@ -7,4 +7,4 @@ edition = "2018"
 [dependencies]
 linfa = { version = "0.3.1", features = ["openblas-system"] }
 linfa-logistic = "0.3.1"
-ndarray = { version 
+ndarray = { version = "0.13", default-features = fals
