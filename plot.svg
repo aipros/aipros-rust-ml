@@ -73,3 +73,37 @@ Exam Results
 <circle cx="248.8907030448075" cy="-147.5061438537059" fill="#ff0000" r="2"/>
 <circle cx="138.09805541280036" cy="-171.12297029871988" fill="#ff0000" r="2"/>
 <circle cx="201.1459844759628" cy="-141.11285997082" fill="#ff0000" r="2"/>
+<circle cx="198.34670886528122" cy="-169.45869448450918" fill="#ff0000" r="2"/>
+<circle cx="130.30880067237237" cy="-270.86255157265646" fill="#ff0000" r="2"/>
+<circle cx="141.14445126104772" cy="-133.22478951716346" fill="#ff0000" r="2"/>
+<circle cx="225.01526998846495" cy="-111.24083877997721" fill="#ff0000" r="2"/>
+<circle cx="120.23528978679184" cy="-140.51342595717108" fill="#ff0000" r="2"/>
+<circle cx="178.67304689923574" cy="-188.2752440791692" fill="#ff0000" r="2"/>
+<circle cx="266.24357788971815" cy="-116.42761122488089" fill="#ff0000" r="2"/>
+<circle cx="196.29025287635375" cy="-147.00243349209572" fill="#ff0000" r="2"/>
+</g>
+</g>
+<g>
+<g>
+<line stroke="black" stroke-width="1" x1="0" x2="0" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="160" x2="160" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="320" x2="320" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="480" x2="480" y1="0" y2="10"/>
+</g>
+<line stroke="black" stroke-width="1" x1="0" x2="480" y1="0" y2="0"/>
+<g>
+<text font-size="12" text-anchor="middle" x="0" y="20">
+0
+</text>
+<text font-size="12" text-anchor="middle" x="160" y="20">
+40
+</text>
+<text font-size="12" text-anchor="middle" x="320" y="20">
+80
+</text>
+<text font-size="12" text-anchor="middle" x="480" y="20">
+120
+</text>
+</g>
+<text font-size="12" text-anchor="middle" x="240" y="30">
+Test 1
