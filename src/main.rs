@@ -1,3 +1,3 @@
 use csv::ReaderBuilder;
 use linfa::prelude::*;
-u
+use linfa_logistic::LogisticRegressi
