@@ -1,4 +1,5 @@
 use csv::ReaderBuilder;
 use linfa::prelude::*;
 use linfa_logistic::LogisticRegression;
-use ndarray::{prelude::*, OwnedR
+use ndarray::{prelude::*, OwnedRepr};
+use ndarray_csv::Array2Reader;
