@@ -5,4 +5,6 @@ use ndarray::{prelude::*, OwnedRepr};
 use ndarray_csv::Array2Reader;
 use plotlib::{
     grid::Grid,
-    
+    page::Page,
+    repr::Plot,
+    style
