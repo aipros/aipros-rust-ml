@@ -7,4 +7,5 @@ use plotlib::{
     grid::Grid,
     page::Page,
     repr::Plot,
-    style
+    style::{PointMarker, PointStyle},
+    view::{Cont
