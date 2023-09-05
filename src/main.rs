@@ -8,4 +8,7 @@ use plotlib::{
     page::Page,
     repr::Plot,
     style::{PointMarker, PointStyle},
-    view::{Cont
+    view::{ContinuousView, View},
+};
+
+fn main() {
