@@ -13,3 +13,4 @@ use plotlib::{
 
 fn main() {
     let train = load_data("data/train.csv");
+    let test = load_data("data/test.c
