@@ -15,4 +15,5 @@ fn main() {
     let train = load_data("data/train.csv");
     let test = load_data("data/test.csv");
 
-    let features = train.nfeatu
+    let features = train.nfeatures();
+    let targets = train
