@@ -19,4 +19,4 @@ fn main() {
     let targets = train.ntargets();
 
     println!(
-        "training with {} samples, test
+        "training with {} samples, testing with {} samples, {} features and {} targ
