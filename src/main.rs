@@ -21,4 +21,5 @@ fn main() {
     println!(
         "training with {} samples, testing with {} samples, {} features and {} target",
         train.nsamples(),
-   
+        test.nsamples(),
+        fea
