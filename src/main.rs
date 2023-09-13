@@ -26,4 +26,5 @@ fn main() {
         targets
     );
 
-    prin
+    println!("plotting data...");
+    plo
