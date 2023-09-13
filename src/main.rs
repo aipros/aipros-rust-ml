@@ -22,4 +22,8 @@ fn main() {
         "training with {} samples, testing with {} samples, {} features and {} target",
         train.nsamples(),
         test.nsamples(),
-        fea
+        features,
+        targets
+    );
+
+    prin
