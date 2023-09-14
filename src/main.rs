@@ -27,4 +27,6 @@ fn main() {
     );
 
     println!("plotting data...");
-    plo
+    plot_data(&train);
+
+    println!("training and testing model
