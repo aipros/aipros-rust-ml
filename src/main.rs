@@ -29,4 +29,5 @@ fn main() {
     println!("plotting data...");
     plot_data(&train);
 
-    println!("training and testing model
+    println!("training and testing model...");
+    let mut max_accuracy_confusion_mat
