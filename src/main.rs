@@ -30,4 +30,5 @@ fn main() {
     plot_data(&train);
 
     println!("training and testing model...");
-    let mut max_accuracy_confusion_matrix = iterate_with_values(&train, &test,
+    let mut max_accuracy_confusion_matrix = iterate_with_values(&train, &test, 0.01, 100);
+    let mut best_th
