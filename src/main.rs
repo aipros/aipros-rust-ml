@@ -33,4 +33,6 @@ fn main() {
     let mut max_accuracy_confusion_matrix = iterate_with_values(&train, &test, 0.01, 100);
     let mut best_threshold = 0.0;
     let mut best_max_iterations = 0;
-    let m
+    let mut threshold = 0.02;
+
+    for max_iter
