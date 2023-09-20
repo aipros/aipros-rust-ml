@@ -35,4 +35,5 @@ fn main() {
     let mut best_max_iterations = 0;
     let mut threshold = 0.02;
 
-    for max_iter
+    for max_iterations in (1000..5000).step_by(500) {
+ 
