@@ -36,4 +36,5 @@ fn main() {
     let mut threshold = 0.02;
 
     for max_iterations in (1000..5000).step_by(500) {
+        while threshold < 1.0 {
  
