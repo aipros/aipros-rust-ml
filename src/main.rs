@@ -39,4 +39,4 @@ fn main() {
         while threshold < 1.0 {
             let confusion_matrix = iterate_with_values(&train, &test, threshold, max_iterations);
 
-            if confusio
+            if confusion_matrix.accuracy() > max_
