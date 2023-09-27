@@ -40,4 +40,4 @@ fn main() {
             let confusion_matrix = iterate_with_values(&train, &test, threshold, max_iterations);
 
             if confusion_matrix.accuracy() > max_accuracy_confusion_matrix.accuracy() {
-                max_accura
+                max_accuracy_confusion_matrix = confusion_matrix;
