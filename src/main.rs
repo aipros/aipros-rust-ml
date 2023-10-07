@@ -42,4 +42,5 @@ fn main() {
             if confusion_matrix.accuracy() > max_accuracy_confusion_matrix.accuracy() {
                 max_accuracy_confusion_matrix = confusion_matrix;
                 best_threshold = threshold;
-                best_max_
+                best_max_iterations = max_iterations;
+        
