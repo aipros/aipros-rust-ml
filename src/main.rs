@@ -45,4 +45,5 @@ fn main() {
                 best_max_iterations = max_iterations;
             }
             threshold += 0.01;
- 
+        }
+        threshold = 0.0
