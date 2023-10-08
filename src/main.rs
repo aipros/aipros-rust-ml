@@ -43,4 +43,6 @@ fn main() {
                 max_accuracy_confusion_matrix = confusion_matrix;
                 best_threshold = threshold;
                 best_max_iterations = max_iterations;
-        
+            }
+            threshold += 0.01;
+ 
