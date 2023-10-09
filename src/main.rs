@@ -50,4 +50,5 @@ fn main() {
     }
 
     println!(
-        "most acc
+        "most accurate confusion matrix: {:?}",
+   
