@@ -54,4 +54,5 @@ fn main() {
         max_accuracy_confusion_matrix
     );
     println!(
-        "with 
+        "with max_iterations: {}, threshold: {}",
+  
