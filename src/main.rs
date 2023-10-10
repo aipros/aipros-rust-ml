@@ -51,4 +51,5 @@ fn main() {
 
     println!(
         "most accurate confusion matrix: {:?}",
-   
+        max_accuracy_confusion_matrix
+  
