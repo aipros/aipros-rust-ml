@@ -58,4 +58,5 @@ fn main() {
         best_max_iterations, best_threshold
     );
     println!("accuracy {}", max_accuracy_confusion_matrix.accuracy(),);
-    println!("precision {}", max_accuracy_confusion_m
+    println!("precision {}", max_accuracy_confusion_matrix.precision(),);
+    println!
