@@ -59,4 +59,4 @@ fn main() {
     );
     println!("accuracy {}", max_accuracy_confusion_matrix.accuracy(),);
     println!("precision {}", max_accuracy_confusion_matrix.precision(),);
-    println!
+    println!("recall {}", max_accuracy
