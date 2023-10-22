@@ -63,4 +63,5 @@ fn main() {
 }
 
 fn iterate_with_values(
-  
+    train: &DatasetBase<
+        Arra
