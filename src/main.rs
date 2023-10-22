@@ -64,4 +64,5 @@ fn main() {
 
 fn iterate_with_values(
     train: &DatasetBase<
-        ArrayBase<OwnedRepr<f64>, Dim<[usiz
+        ArrayBase<OwnedRepr<f64>, Dim<[usize; 2]>>,
+        ArrayBase<OwnedRe
