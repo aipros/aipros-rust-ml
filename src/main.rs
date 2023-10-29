@@ -69,4 +69,6 @@ fn iterate_with_values(
     >,
     test: &DatasetBase<
         ArrayBase<OwnedRepr<f64>, Dim<[usize; 2]>>,
-        ArrayBase<OwnedRepr<&'static str>, Dim<[u
+        ArrayBase<OwnedRepr<&'static str>, Dim<[usize; 2]>>,
+    >,
+    threshol
