@@ -71,4 +71,6 @@ fn iterate_with_values(
         ArrayBase<OwnedRepr<f64>, Dim<[usize; 2]>>,
         ArrayBase<OwnedRepr<&'static str>, Dim<[usize; 2]>>,
     >,
-    threshol
+    threshold: f64,
+    max_iterations: u64,
+) -> Co
