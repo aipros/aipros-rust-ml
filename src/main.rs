@@ -74,4 +74,4 @@ fn iterate_with_values(
     threshold: f64,
     max_iterations: u64,
 ) -> ConfusionMatrix<&'static str> {
-    let mo
+    let model = LogisticRegression::defa
