@@ -75,4 +75,5 @@ fn iterate_with_values(
     max_iterations: u64,
 ) -> ConfusionMatrix<&'static str> {
     let model = LogisticRegression::default()
-        .max_iterations(m
+        .max_iterations(max_iterations)
+        .gradient_toler
