@@ -78,4 +78,6 @@ fn iterate_with_values(
         .max_iterations(max_iterations)
         .gradient_tolerance(0.0001)
         .fit(train)
-        .expect("can train mo
+        .expect("can train model");
+
+    let validation = model.set_th
