@@ -77,4 +77,5 @@ fn iterate_with_values(
     let model = LogisticRegression::default()
         .max_iterations(max_iterations)
         .gradient_tolerance(0.0001)
-        .fit
+        .fit(train)
+        .expect("can train mo
