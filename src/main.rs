@@ -76,4 +76,5 @@ fn iterate_with_values(
 ) -> ConfusionMatrix<&'static str> {
     let model = LogisticRegression::default()
         .max_iterations(max_iterations)
-        .gradient_toler
+        .gradient_tolerance(0.0001)
+        .fit
