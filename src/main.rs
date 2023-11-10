@@ -80,4 +80,6 @@ fn iterate_with_values(
         .fit(train)
         .expect("can train model");
 
-    let validation = model.set_th
+    let validation = model.set_threshold(threshold).predict(test);
+
+    let 
