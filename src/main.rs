@@ -84,4 +84,4 @@ fn iterate_with_values(
 
     let confusion_matrix = validation
         .confusion_matrix(test)
-        .exp
+        .expect("can create confusion matrix");
