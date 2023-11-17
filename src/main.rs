@@ -82,4 +82,4 @@ fn iterate_with_values(
 
     let validation = model.set_threshold(threshold).predict(test);
 
-    let 
+    let confusion_matrix = validation
