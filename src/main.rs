@@ -83,3 +83,5 @@ fn iterate_with_values(
     let validation = model.set_threshold(threshold).predict(test);
 
     let confusion_matrix = validation
+        .confusion_matrix(test)
+        .exp
