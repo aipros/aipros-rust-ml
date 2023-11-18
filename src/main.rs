@@ -89,4 +89,5 @@ fn iterate_with_values(
     confusion_matrix
 }
 
-fn load_data(path: &str) -> Dataset<f64, &'st
+fn load_data(path: &str) -> Dataset<f64, &'static str> {
+    let mut reader = Rea
