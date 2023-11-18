@@ -85,3 +85,8 @@ fn iterate_with_values(
     let confusion_matrix = validation
         .confusion_matrix(test)
         .expect("can create confusion matrix");
+
+    confusion_matrix
+}
+
+fn load_data(p
