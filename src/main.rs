@@ -91,4 +91,5 @@ fn iterate_with_values(
 
 fn load_data(path: &str) -> Dataset<f64, &'static str> {
     let mut reader = ReaderBuilder::new()
-        .has_heade
+        .has_headers(false)
+        .de
