@@ -94,4 +94,5 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
         .has_headers(false)
         .delimiter(b',')
         .from_path(path)
-       
+        .expect("can create reader");
+
