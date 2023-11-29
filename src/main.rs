@@ -96,3 +96,5 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
         .from_path(path)
         .expect("can create reader");
 
+    let array: Array2<f64> = reader
+   
