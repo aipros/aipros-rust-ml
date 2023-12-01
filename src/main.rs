@@ -101,4 +101,4 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
         .expect("can deserialize array");
 
     let (data, targets) = (
-        arra
+        array.slice(s![.., 0..2]).to_owne
