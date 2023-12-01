@@ -98,4 +98,7 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
 
     let array: Array2<f64> = reader
         .deserialize_array2_dynamic()
-        .expect("can deserialize arra
+        .expect("can deserialize array");
+
+    let (data, targets) = (
+        arra
