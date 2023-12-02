@@ -105,4 +105,6 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
         array.column(2).to_owned(),
     );
 
-    let feature_names =
+    let feature_names = vec!["test 1", "test 2"];
+
+    Data
