@@ -102,4 +102,7 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
 
     let (data, targets) = (
         array.slice(s![.., 0..2]).to_owned(),
-        array.column(2).to_
+        array.column(2).to_owned(),
+    );
+
+    let feature_names =
