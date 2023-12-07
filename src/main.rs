@@ -108,4 +108,6 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
     let feature_names = vec!["test 1", "test 2"];
 
     Dataset::new(data, targets)
-        .map_targets(|x| 
+        .map_targets(|x| {
+            if *x as usize == 1 {
+        
