@@ -111,4 +111,6 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
         .map_targets(|x| {
             if *x as usize == 1 {
                 "accepted"
-            } else
+            } else {
+                "denied"
+      
