@@ -113,4 +113,6 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
                 "accepted"
             } else {
                 "denied"
-      
+            }
+        })
+        .with_fea
