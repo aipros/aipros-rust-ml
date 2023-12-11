@@ -115,4 +115,7 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
                 "denied"
             }
         })
-        .with_fea
+        .with_feature_names(feature_names)
+}
+
+f
