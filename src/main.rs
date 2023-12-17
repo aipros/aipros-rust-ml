@@ -118,4 +118,5 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
         .with_feature_names(feature_names)
 }
 
-f
+fn plot_data(
+    train: &Datase
