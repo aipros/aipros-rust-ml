@@ -119,4 +119,5 @@ fn load_data(path: &str) -> Dataset<f64, &'static str> {
 }
 
 fn plot_data(
-    train: &Datase
+    train: &DatasetBase<
+        ArrayBase<OwnedRepr<f6
