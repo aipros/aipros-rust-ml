@@ -122,4 +122,7 @@ fn plot_data(
     train: &DatasetBase<
         ArrayBase<OwnedRepr<f64>, Dim<[usize; 2]>>,
         ArrayBase<OwnedRepr<&'static str>, Dim<[usize; 2]>>,
-    >
+    >,
+) {
+    let mut positive = vec![];
+    let m
