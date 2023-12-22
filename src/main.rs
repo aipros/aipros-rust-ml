@@ -125,4 +125,6 @@ fn plot_data(
     >,
 ) {
     let mut positive = vec![];
-    let m
+    let mut negative = vec![];
+
+    let record
