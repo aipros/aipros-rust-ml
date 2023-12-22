@@ -127,4 +127,4 @@ fn plot_data(
     let mut positive = vec![];
     let mut negative = vec![];
 
-    let record
+    let records = train.records().clone().into_raw_vec(
