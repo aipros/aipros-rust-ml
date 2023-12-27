@@ -129,4 +129,5 @@ fn plot_data(
 
     let records = train.records().clone().into_raw_vec();
     let features: Vec<&[f64]> = records.chunks(2).collect();
-    let targets = 
+    let targets = train.targets().clone().into_raw_vec();
+   
