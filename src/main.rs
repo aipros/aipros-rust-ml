@@ -128,4 +128,5 @@ fn plot_data(
     let mut negative = vec![];
 
     let records = train.records().clone().into_raw_vec();
-    let features: Vec<&[f64]> = records.c
+    let features: Vec<&[f64]> = records.chunks(2).collect();
+    let targets = 
