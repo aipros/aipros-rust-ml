@@ -131,4 +131,4 @@ fn plot_data(
     let features: Vec<&[f64]> = records.chunks(2).collect();
     let targets = train.targets().clone().into_raw_vec();
     for i in 0..features.len() {
-        let feature = fe
+        let feature = features.get(i).expect("feature exists")
