@@ -133,4 +133,4 @@ fn plot_data(
     for i in 0..features.len() {
         let feature = features.get(i).expect("feature exists");
         if let Some(&"accepted") = targets.get(i) {
-            po
+            positive.push((feature[0], feature[1]));
