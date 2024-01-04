@@ -132,4 +132,5 @@ fn plot_data(
     let targets = train.targets().clone().into_raw_vec();
     for i in 0..features.len() {
         let feature = features.get(i).expect("feature exists");
-        if let Some(&"accepted") 
+        if let Some(&"accepted") = targets.get(i) {
+            po
