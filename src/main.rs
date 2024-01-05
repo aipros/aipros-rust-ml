@@ -135,4 +135,6 @@ fn plot_data(
         if let Some(&"accepted") = targets.get(i) {
             positive.push((feature[0], feature[1]));
         } else {
-            negative.pu
+            negative.push((feature[0], feature[1]));
+        }
+    
