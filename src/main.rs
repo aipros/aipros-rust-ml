@@ -137,4 +137,6 @@ fn plot_data(
         } else {
             negative.push((feature[0], feature[1]));
         }
-    
+    }
+
+    let plot_positive = Plot::n
