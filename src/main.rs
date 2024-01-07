@@ -142,4 +142,5 @@ fn plot_data(
     let plot_positive = Plot::new(positive)
         .point_style(
             PointStyle::new()
-                .
+                .size(2.0)
+                .marker(PointMarker:
