@@ -139,4 +139,6 @@ fn plot_data(
         }
     }
 
-    let plot_positive = Plot::n
+    let plot_positive = Plot::new(positive)
+        .point_style(
+         
