@@ -143,4 +143,5 @@ fn plot_data(
         .point_style(
             PointStyle::new()
                 .size(2.0)
-                .marker(PointMarker:
+                .marker(PointMarker::Square)
+                .colour("#00ff00"
