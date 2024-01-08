@@ -146,4 +146,6 @@ fn plot_data(
                 .marker(PointMarker::Square)
                 .colour("#00ff00"),
         )
-        .legend("Exam R
+        .legend("Exam Results".to_string());
+
+   
