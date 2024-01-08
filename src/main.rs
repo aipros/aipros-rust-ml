@@ -144,4 +144,6 @@ fn plot_data(
             PointStyle::new()
                 .size(2.0)
                 .marker(PointMarker::Square)
-                .colour("#00ff00"
+                .colour("#00ff00"),
+        )
+        .legend("Exam R
