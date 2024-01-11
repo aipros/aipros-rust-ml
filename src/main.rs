@@ -148,4 +148,4 @@ fn plot_data(
         )
         .legend("Exam Results".to_string());
 
-   
+    let plot_negative = Plot::ne
