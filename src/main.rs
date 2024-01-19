@@ -151,3 +151,4 @@ fn plot_data(
     let plot_negative = Plot::new(negative).point_style(
         PointStyle::new()
             .size(2.0)
+            .marker(PointMarker::C
