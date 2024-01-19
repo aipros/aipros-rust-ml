@@ -149,4 +149,5 @@ fn plot_data(
         .legend("Exam Results".to_string());
 
     let plot_negative = Plot::new(negative).point_style(
-      
+        PointStyle::new()
+            .size(2.0)
