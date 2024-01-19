@@ -155,4 +155,6 @@ fn plot_data(
             .colour("#ff0000"),
     );
 
-    let grid = Grid::new
+    let grid = Grid::new(0, 0);
+
+    let mut image = ContinuousVi
