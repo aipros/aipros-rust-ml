@@ -152,4 +152,7 @@ fn plot_data(
         PointStyle::new()
             .size(2.0)
             .marker(PointMarker::Circle)
-            .colour("#ff00
+            .colour("#ff0000"),
+    );
+
+    let grid = Grid::new
