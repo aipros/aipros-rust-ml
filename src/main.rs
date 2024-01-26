@@ -157,4 +157,6 @@ fn plot_data(
 
     let grid = Grid::new(0, 0);
 
-    let mut image = ContinuousVi
+    let mut image = ContinuousView::new()
+        .add(plot_positive)
+     
