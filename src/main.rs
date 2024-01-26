@@ -159,4 +159,5 @@ fn plot_data(
 
     let mut image = ContinuousView::new()
         .add(plot_positive)
-     
+        .add(plot_negative)
+        .x_range(0.0,
