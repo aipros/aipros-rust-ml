@@ -162,4 +162,7 @@ fn plot_data(
         .add(plot_negative)
         .x_range(0.0, 120.0)
         .y_range(0.0, 120.0)
-        .x_label("Test 1"
+        .x_label("Test 1")
+        .y_label("Test 2");
+
+    i
