@@ -167,4 +167,5 @@ fn plot_data(
 
     image.add_grid(grid);
 
-    Page::
+    Page::single(&image)
+        .save(
