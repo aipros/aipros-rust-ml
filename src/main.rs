@@ -168,4 +168,5 @@ fn plot_data(
     image.add_grid(grid);
 
     Page::single(&image)
-        .save(
+        .save("plot.svg")
+        .expect("can generat
