@@ -165,4 +165,6 @@ fn plot_data(
         .x_label("Test 1")
         .y_label("Test 2");
 
-    i
+    image.add_grid(grid);
+
+    Page::
