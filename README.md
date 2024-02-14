@@ -1,3 +1,3 @@
 # aipros-rust-ml
 
-This is
+This is a basic example demonstrating the use 
