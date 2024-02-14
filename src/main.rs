@@ -169,4 +169,5 @@ fn plot_data(
 
     Page::single(&image)
         .save("plot.svg")
-        .expect("can generat
+        .expect("can generate svg for plot");
+}
