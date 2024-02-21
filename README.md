@@ -1,3 +1,3 @@
 # aipros-rust-ml
 
-This is a basic example demonstrating the use of Rust and Linfa to perform logistic regre
+This is a basic example demonstrating the use of Rust and Linfa to perform logistic regression for data classification on a simp
