@@ -3,4 +3,4 @@
 This is a basic example demonstrating the use of Rust and Linfa to perform logistic regression for data classification on a simple dataset.
 
 ## Requirements:
-* gfortran (Yo
+* gfortran (You can install it using `sudo apt-get install gfortra
