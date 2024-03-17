@@ -4,4 +4,6 @@ This is a basic example demonstrating the use of Rust and Linfa to perform logis
 
 ## Requirements:
 * gfortran (You can install it using `sudo apt-get install gfortran`)
-* openblas (Install using `sudo 
+* openblas (Install using `sudo apt-get install libopenblas-dev`)
+
+## How to Run
