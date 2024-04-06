@@ -8,4 +8,4 @@ This is a basic example demonstrating the use of Rust and Linfa to perform logis
 
 ## How to Run:
 
-Run the program by executing 
+Run the program by executing `cargo run` command in your terminal. Th
